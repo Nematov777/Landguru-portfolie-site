@@ -1,0 +1,60 @@
+.quality__features--p {
+    font-family: 'DM Sans' sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 2.1px;
+    text-transform: uppercase;
+    margin: 65px 0 0 0;
+    color: #244886;
+}
+
+.quality__features--h3 {
+    font-family: 'DM Sans' sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 55px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -1.5px;
+}
+
+.quality__features--blocks {
+    display: flex;
+    margin: 78px 180px;
+    gap: 100px;
+}
+
+.blocks {
+    width: 267px;
+    height: 267px;
+}
+
+.bocks__images {
+    display: block;
+    margin: 0 auto;
+}
+
+.all__blocks--titles {
+    font-family: 'DM Sans' sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #0F2137;
+    padding: 20px 0;
+}
+
+.all__blocks--paragraphs {
+    font-family: 'DM Sans' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    text-align: center;
+    color: #343D48;
+}
