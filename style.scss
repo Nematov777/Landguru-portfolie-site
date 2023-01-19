@@ -5,6 +5,10 @@
     // overflow-x: hidden;
 }
 
+a {
+    text-decoration: none;
+}
+
 body {
     overflow-x: hidden;
 }
@@ -21,4 +25,6 @@ body {
 @import "./__testimunials.scss";
 @import "./_hand-section.scss";
 @import "./_plans-section.scss";
-@import "./frequent-section.scss"
+@import "./frequent-section.scss";
+@import "./footer.scss";
+@import "./modal-window.scss";

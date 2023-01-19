@@ -1,11 +1,30 @@
 .hero {
-    background: linear-gradient(105.18deg, #1E3C72 -2.04%, #2A5298 107.42%);
+    // background: linear-gradient(105.18deg, #1E3C72 -2.04%, #2A5298 107.42%);
     border-radius: 0 0 200px 0;
     // background-image: url(../Background/pattern.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
 }
+
+#hero__money {
+    color: rgba(255, 255, 255, 0.534);
+}
+
+.in__header--hero {
+    background-image: url(./Background/pattern.png);
+    background-repeat: no-repeat;
+}
+
+.header__hero {
+    background: linear-gradient(105.18deg, #1E3C72 -2.04%, #2A5298 107.42%);    
+}
+
+// .in__hero {
+//     position: relative;
+//     background-image: url(./Background/pattern.png);
+//     z-index: 10;
+// }
 
 .hero__one--section {
     display: flex;
@@ -15,7 +34,7 @@
 }
 
 .hero__h1 {
-    font-family: "DM Sans" sans-serif;
+    font-family: sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 85px;
@@ -26,7 +45,7 @@
 }
 
 .hero__p {
-    font-family: "DM Sans" sans-serif;
+    font-family: sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -43,7 +62,7 @@
     border-radius: 50px;
     width: 150px;
     height: 50px;
-    font-family: "DM Sans";
+    font-family:sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -69,7 +88,7 @@
 }
 
 .hero__video--p {
-    font-family: 'Heebo';
+    font-family: sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;

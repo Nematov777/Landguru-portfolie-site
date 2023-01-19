@@ -6,17 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./icons/title.svg" type="image/svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Heebo:wght@500&family=Lexend+Deca&family=Poppins:wght@700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
-    <title>App modern</title>
+    <title>Landguru.uz</title>
 </head>
 
 <body>
     <div class="container">
+        <div class="header__hero">
+            <div class="in__header--hero">
         <header>
             <a href="./">
                 <img src="./icons/logo.png" alt="logo">
@@ -50,7 +53,7 @@
                                     Get Started
                                 </button>
                                 <span>
-                                    <a class="hero__modal--window" href="#">
+                                    <a class="hero__modal--window" href="#openModal">
                                         <img style="width: 30px;" src="./icons/video-player.svg" alt="video player">
                                         <p class="hero__video--p" class="hero__modal--window">Watch Video</p>
                                     </a>
@@ -59,13 +62,13 @@
                             <div class="sponser__all">
                                 <p class="hero__sponser">Sponsered by:</p>
                                 <a href="https://www.paypal.com/uz/home" target="_blank">
-                                    <li class="hero__icon--li_one"><i class="bi bi-paypal">PayPal</i></li>
+                                    <li class="hero__icon--li_one"><i class="bi bi-paypal" id="hero__money">PayPal</i></li>
                                 </a>
                                 <a href="https://www.google.com/" target="_blank">
                                     <li class="hero__icon--li_two">gogle</li>
                                 </a>
                                 <a href="https://www.dropbox.com/" target="_blank">
-                                    <li class="hero__icon--li_three"><i class="bi bi-dropbox">Dropbox</i></li>
+                                    <li class="hero__icon--li_three"><i class="bi bi-dropbox" id="hero__money">Dropbox</i></li>
                                 </a>
                             </div>
                         </div>
@@ -74,6 +77,8 @@
                 </div>
             </div>
         </main>
+        </div>
+    </div>
         <div class="quality__features container">
             <p class="quality__features--p">quality features</p>
             <h3 class="quality__features--h3">Meet exciting feature of app</h3>
@@ -439,9 +444,64 @@
                     <img src="./icons/plus.svg" alt="plus" class="question__images">
                     <p class="question__paragraphs">New update fixed all bug and issues</p>
                 </div>
+            <hr>
             </div>
         </section>
+        <footer>
+            <div class="one__section">
+                <h3 class="footer__titles">About Us</h3>
+                <ul class="footer__ul">
+                    <li class="footer__li"><a class="footer__ancer" href="#">Support Center</a></li>
+                    <li class="footer__li"><a class="footer__ancer" href="#">Customer Support</a></li>
+                    <li class="footer__li"><a class="footer__ancer" href="#">About Us</a></li>
+                    <li class="footer__li"><a class="footer__ancer" href="#">Copyright</a></li>
+                    <li class="footer__li"><a class="footer__ancer" href="#">Popular Compaign</a></li>
+                </ul>
+            </div>
+            <div class="two__section">
+                <h3 class="footer__titles">Our information</h3>
+                <ul class="footer__ul">
+                    <li class="footer__li"><a class="footer__ancer" href="#">Return Policy</a></li>
+                    <li class="footer__li"><a class="footer__ancer" href="#">Privacy Policy</a></li>
+                    <li class="footer__li"><a class="footer__ancer" href="#">Terms & Conditions</a></li>
+                    <li class="footer__li"><a class="footer__ancer" href="#">Site Map</a></li>
+                    <li class="footer__li"><a class="footer__ancer" href="#">Store Hours</a></li>
+                </ul>
+            </div>
+            <div class="three__section">
+                <h3 class="footer__titles">My Account</h3>
+                <ul class="footer__ul">
+                    <li class="footer__li"><a class="footer__ancer" href="#">Press Inquiries</a></li>
+                    <li class="footer__li"><a class="footer__ancer" href="#">Social Media</a></li>
+                    <li class="footer__li"><a class="footer__ancer" href="#">Directories</a></li>
+                    <li class="footer__li"><a class="footer__ancer" href="#">Images & B-rol</a>l</li>
+                    <li class="footer__li"><a class="footer__ancer" href="#">Premissions</a></li>
+                </ul>
+            </div>
+            <div class="four__section">
+                <h3 class="footer__titles">Policy</h3>
+                <ul class="footer__ul">
+                    <li class="footer__li"><a class="footer__ancer" href="#">Application Security</a></li>
+                    <li class="footer__li"><a class="footer__ancer" href="#">Software Principles</a></li>
+                    <li class="footer__li"><a class="footer__ancer" href="#">Unwanted Software Policy</a></li>
+                    <li class="footer__li"><a class="footer__ancer" href="#">Responsible Supply Chain</a></li>
+                </ul>
+            </div>
+        </footer>
     </div>
+    <div id="openModal" class="modal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3 class="modal-title">Заголовок</h3>
+              <a href="#close" title="Close" class="close">×</a>
+            </div>
+            <div class="modal-body">    
+                <video src="./Video/video1.mp4"  controls autoplay loop muted width="100%" height="100%"></video>
+            </div>
+          </div>
+        </div>
+      </div>
 </body>
 
 </html>

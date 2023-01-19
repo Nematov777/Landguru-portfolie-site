@@ -2,22 +2,26 @@ header {
 	width: 100%;
 	display: flex;
 	justify-content: space-around;
-	background: linear-gradient(105.18deg, #1E3C72 -2.04%, #2A5298 107.42%);
+	// background: linear-gradient(105.18deg, #1E3C72 -2.04%, #2A5298 107.42%);
 	align-items: center;
 	height: 70px;
 }
+
 ul {
 	display: flex;
 }
+
 li {
 	list-style: none;
 }
+
 .header__li {
 	overflow: hidden;
 }
+
 .header__li--a {
 	padding: 15px 0;
-    margin: 0 15px;
+	margin: 0 15px;
 	font-size: 16px;
 	line-height: 25px;
 	color: white;
@@ -26,12 +30,14 @@ li {
 	transition: all 0.4s ease-in-out;
 	font-weight: bold;
 }
+
 .container {
 	max-width: 1400px;
 	min-width: 1300px;
 	margin: 0 auto;
 	box-sizing: border-box;
 }
+
 .header__button {
 	width: 150px;
 	height: 50px;
@@ -46,7 +52,8 @@ li {
 	font-size: 16px;
 	line-height: 24px;
 	transition: all 0.4s ease-in-out;
-    cursor: pointer;
+	cursor: pointer;
+
 	&:hover {
 		background-color: #fff;
 		color: #2A5298;

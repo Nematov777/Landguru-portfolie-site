@@ -1,0 +1,36 @@
+footer {
+    display: flex;
+    justify-content: center;
+    gap: 62px;
+    margin: 170px 0 20px;
+}
+
+.footer__ul {
+    display: flex;
+    flex-direction: column;
+    margin: 28px 0 0;
+}
+
+.footer__titles {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -0.5px;
+    color: #0F2137;
+}
+
+.footer__li {
+    padding: 15px 0 0;
+}
+
+.footer__ancer {
+    text-decoration: none;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #02073E;
+    opacity: 0.8;
+}
