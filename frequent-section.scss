@@ -1,0 +1,58 @@
+.frequent__title {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 2.1px;
+    text-transform: uppercase;
+    color: #254887;
+    margin: 120px 0 0;
+}
+
+.frequent__hero {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 55px;
+    text-align: center;
+    letter-spacing: -1.5px;
+    color: #0F2137;
+}
+
+.questions {
+    margin: 100px 350px 0;
+}
+
+.question {
+    display: flex;
+    gap: 14px;
+    align-items:unset;
+}
+
+.question__paragraphs {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -0.5px;
+    color: #0F2137;
+}
+
+.question__answer {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #343D48;
+    width: 713px;
+}
+
+hr {
+    width: 752px;
+    margin: 10px 0 15px;
+}
