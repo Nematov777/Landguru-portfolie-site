@@ -10,8 +10,8 @@ a {
   text-decoration: none;
 }
 
-body {
-  overflow-x: hidden;
+#responsive-menu {
+  display: none;
 }
 
 header {
@@ -74,6 +74,51 @@ li {
   color: #2A5298;
 }
 
+@media screen and (max-width: 800px) {
+  #menu {
+    position: relative;
+  }
+  #menu ul {
+    background: #111;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: 0;
+    z-index: 3;
+    height: auto;
+    display: none;
+  }
+  #menu ul.sub-menus {
+    width: 100%;
+    position: static;
+  }
+  #menu ul.sub-menus a {
+    padding-left: 30px;
+  }
+  #menu li {
+    display: block;
+    float: none;
+    width: auto;
+  }
+  #menu input, #menu label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+  }
+  #menu input {
+    z-index: 4;
+  }
+  #menu input:checked + label {
+    color: white;
+  }
+  #menu input:checked + label:before {
+    content: "×";
+  }
+  #menu input:checked ~ ul {
+    display: block;
+  }
+}
 .hero {
   border-radius: 0 0 200px 0;
   background-repeat: no-repeat;
@@ -1000,30 +1045,28 @@ footer {
 }
 
 .modal {
-  position: fixed; /* фиксированное положение */
+  position: fixed;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.5); /* фон */
+  background: rgba(0, 0, 0, 0.5);
   z-index: 1050;
-  opacity: 0; /* по умолчанию модальное окно прозрачно */
+  opacity: 0;
   -webkit-transition: opacity 200ms ease-in;
   -moz-transition: opacity 200ms ease-in;
-  transition: opacity 200ms ease-in; /* анимация перехода */
-  pointer-events: none; /* элемент невидим для событий мыши */
+  transition: opacity 200ms ease-in;
+  pointer-events: none;
   margin: 0;
   padding: 0;
 }
 
-/* При отображении модального окно */
 .modal:target {
-  opacity: 1; /* делаем окно видимым */
-  pointer-events: auto; /* элемент видим для событий мыши */
-  overflow-y: auto; /* добавляем прокрутку по y, когда элемент не помещается на страницу */
+  opacity: 1;
+  pointer-events: auto;
+  overflow-y: auto;
 }
 
-/* ширина модального окна и его отступы от экрана */
 .modal-dialog {
   position: relative;
   width: auto;
@@ -1033,10 +1076,9 @@ footer {
 @media (min-width: 576px) {
   .modal-dialog {
     max-width: 500px;
-    margin: 30px auto; /* отображение окна по центру */
+    margin: 30px auto;
   }
 }
-/* Стили для блока с контентом окна */
 .modal-content {
   position: relative;
   display: -webkit-box;
@@ -1062,7 +1104,6 @@ footer {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
   }
 }
-/* Стили заголовка окна */
 .modal-header {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1088,7 +1129,6 @@ footer {
   font-weight: 500;
 }
 
-/* Стили кнопки "х" ("Закрыть")  */
 .close {
   float: right;
   font-family: sans-serif;
@@ -1101,15 +1141,14 @@ footer {
   text-decoration: none;
 }
 
-/* Стили для закрывающей кнопки в фокусе или наведении */
-.close:focus, .close:hover {
+.close:focus,
+.close:hover {
   color: #000;
   text-decoration: none;
   cursor: pointer;
   opacity: 0.75;
 }
 
-/* Стили блока основного содержимого окна */
 .modal-body {
   position: relative;
   -webkit-box-flex: 1;

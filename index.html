@@ -24,12 +24,15 @@
             <a href="./">
                 <img src="./icons/logo.png" alt="logo">
             </a>
-            <ul>
-                <li class="header__li"><a class="header__li--a" href="#">Home</a></li>
-                <li class="header__li"><a class="header__li--a" href="#">Adversite</a></li>
-                <li class="header__li"><a class="header__li--a" href="#">Supports</a></li>
-                <li class="header__li"><a class="header__li--a" href="#">Contact</a></li>
-            </ul>
+            <nav id='menu'>
+                <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+                <ul>
+                  <li class="header__li--a"><a class="header__li" href='http://'>Home</a></li>
+                  <li class="header__li--a"><a class="header__li" href='http://'>Adversite </a></li>
+                  <li class="header__li--a"><a class="header__li" href='http://'> Support</a></li>
+                  <li class="header__li--a"><a class="header__li" href='http://'>Contact</a></li>
+                </ul>
+              </nav>
             <button class="header__button">Get started</button>
         </header>
         <main>
@@ -307,7 +310,7 @@
                         </span>
                     </div>
                 </div>
-                <div class="block__4">
+                <!-- <div class="block__4">
                     <div class="star__block"><i class="bi bi-star-fill"></i>
                         <i class="bi bi-star-fill"></i>
                         <i class="bi bi-star-fill"></i>
@@ -326,7 +329,7 @@
                             <p class="img__block--p">@denny.hil</p>
                         </span>
                     </div>
-                </div>
+                </div> -->
             </div>
             <div class="scrolls">
                 <li class="arrow__left"><i class="bi bi-arrow-left"></i></li>
@@ -497,7 +500,7 @@
               <a href="#close" title="Close" class="close">×</a>
             </div>
             <div class="modal-body">    
-                <video src="./Video/video1.mp4"  controls autoplay loop muted width="100%" height="100%"></video>
+                <video src="./Video/video1.mp4"  controls autoplay loop width="100%" height="100%"></video>
             </div>
           </div>
         </div>
