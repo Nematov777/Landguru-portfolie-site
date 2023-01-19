@@ -1,16 +1,51 @@
 .hand__section {
-    width: 93%;
+    width: auto;
     height: 900px;
     background: linear-gradient(287.67deg, rgba(255, 253, 230, 0.35) -3.53%, rgba(255, 253, 230, 0.07) -3.52%, rgba(224, 239, 250, 0.35) 92.55%);
     border-radius: 250px 0px 0px 0px;
-    margin: 0 0 0 120px;
+    margin: 0 0 0 10px;
+    background-repeat: no-repeat;
 }
 
 .in__hand--section {
     display: flex;
     justify-content: space-between;
-    // gap: 25px;
     align-items: center;
     padding: 0 20px 0 0;
     box-sizing: border-box;
+}
+
+.hand__title {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 40px;
+    letter-spacing: 2.1px;
+    text-transform: uppercase;
+    color: #244886;
+    // padding: 0 0 10px 0; 
+}
+
+.hand__h3 {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 55px;
+    letter-spacing: -1.5px;
+    color: #0F2137;
+    width: 510px;
+    padding: 0 0 30px 0;
+}
+
+.hand__p {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 42px;
+    color: #02073E;
+    width: 430px;
+    padding: 0 0 30px 0;
 }
