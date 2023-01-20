@@ -1,3 +1,204 @@
-@media only screen and (max-width:320px) {
-    
+@media only screen and (max-width:1024px) {
+    .container {
+        min-width: 769px;
+        // margin: 0 auto;
+        box-sizing: border-box;
+    }
+
+    body {
+        max-width: 900px;
+    }
+
+    header {
+        width: 1024px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 70px;
+    }
+
+    .in__header--hero {
+        background-image: url(./Background/pattern.png);
+        background-repeat: no-repeat;
+        width: 1024px;
+    }
+
+    .header__hero {
+        background: linear-gradient(105.18deg, #1E3C72 -2.04%, #2A5298 107.42%);
+        width: 1024px;
+    }
+
+    .hero__one--section {
+        display: flex;
+        justify-content: space-between;
+        margin: 0px auto;
+        padding: 0 0px;
+        max-width: 900px;
+    }
+
+    .hero__h1 {
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 50px;
+        letter-spacing: -2px;
+        color: #FFFFFF;
+        width: 542px;
+        padding: 0 0 30px 0;
+    }
+
+    .hero__p {
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 42px;
+        color: #FFFFFF;
+        width: 430px;
+        padding: 0 0 25px 0;
+    }
+
+    .quality__features--blocks {
+        display: grid;
+        gap: 0px 0px;
+        grid-template-areas:
+            "one__blocks . two__blocks"
+            ". three__blocks ."
+            ". . .";
+        margin: 60px 100px;
+    }
+
+    .one__blocks {
+        grid-area: one__blocks;
+    }
+
+    .two__blocks {
+        grid-area: two__blocks;
+    }
+
+    .three__blocks {
+        grid-area: three__blocks;
+    }
+
+    .quality__features--p {
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 40px;
+        // text-align: center;
+        letter-spacing: 2.1px;
+        text-transform: uppercase;
+        margin: 65px 0 0 130px;
+        color: #244886;
+    }
+
+    .quality__features--h3 {
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 55px;
+        // text-align: center;
+        letter-spacing: -1.5px;
+        margin: 0 0 0 100px;
+    }
+
+    .info__section {
+        display: flex;
+        // justify-content: space-between;
+        align-items: center;
+        margin: 0 0 0 20px;
+        gap: 50px;
+        outline: none;
+    }
+
+    .blocks__all--features {
+        display: grid;
+        gap: 30px;
+        grid-template-areas:
+            "one two ."
+            "three four ."
+            "five six .";
+        margin: 100px 0 0 135px;
+    }
+
+    .one {
+        grid-area: one;
+    }
+
+    .two {
+        grid-area: two;
+    }
+
+    .three {
+        grid-area: three;
+    }
+
+    .four {
+        grid-area: four;
+    }
+
+    .five {
+        grid-area: five;
+    }
+
+    .six {
+        grid-area: six;
+    }
+
+    .social__icons {
+        display: none;
+    }
+
+    .core__title {
+        text-align: center;
+    }
+
+    .core__h3 {
+        text-align: center;
+    }
+
+    .core__p {
+        text-align: center;
+        padding: 0 0 40px 70px;
+    }
+
+    .core__button {
+        display: block;
+        margin: 0 180px;
+    }
+
+    .core__section {
+        margin: 0 auto;
+    }
+
+    .count__section {
+        width: 1024px;
+        margin: 0 0 0 0px;
+    }
+
+    .count__info--h3 {
+        width: 200px;
+        font-size: 18px;
+    }
+
+    .count__info--p {
+        width: 190px;
+    }
+
+    .arrows__style {
+        margin: -150px 0 0 40px;
+    }
+
+    .block__3 {
+        width: 100vh;
+        overflow: hidden;
+    }
 }
+
+@media only screen and (max-width:768px) {}
+
+@media only screen and (max-width:425px) {}
+
+@media only screen and (max-width:375px) {}
