@@ -64,13 +64,10 @@
     }
 
     .quality__features--blocks {
-        display: grid;
-        gap: 0px 0px;
-        grid-template-areas:
-            "one__blocks . two__blocks"
-            ". three__blocks ."
-            ". . .";
-        margin: 60px 100px;
+        display: flex;
+        gap: 100px;
+        width: 900px;
+        margin: 70px 40px;
     }
 
     .one__blocks {
@@ -94,7 +91,7 @@
         // text-align: center;
         letter-spacing: 2.1px;
         text-transform: uppercase;
-        margin: 65px 0 0 130px;
+        margin: 65px 0 0 230px;
         color: #244886;
     }
 
@@ -106,7 +103,7 @@
         line-height: 55px;
         // text-align: center;
         letter-spacing: -1.5px;
-        margin: 0 0 0 100px;
+        margin: 0 0 0 230px;
     }
 
     .info__section {
@@ -175,7 +172,7 @@
     }
 
     .core__section {
-        margin: 0 auto;
+        margin: 0 0 0 230px;
     }
 
     .count__section {
@@ -374,13 +371,10 @@
     }
 
     .quality__features--blocks {
-        display: grid;
-        gap: 0px 0px;
-        grid-template-areas:
-            "one__blocks . two__blocks"
-            ". three__blocks ."
-            ". . .";
-        margin: 60px 100px;
+        display: flex;
+        gap: 100px;
+        width: 900px;
+        margin: 70px 40px;
     }
 
     .one__blocks {
@@ -700,13 +694,10 @@
     }
 
     .quality__features--blocks {
-        display: grid;
-        gap: 0px 0px;
-        grid-template-areas:
-            "one__blocks . two__blocks"
-            ". three__blocks ."
-            ". . .";
-        margin: 60px 100px;
+        display: flex;
+        gap: 100px;
+        width: 900px;
+        margin: 70px 40px;
     }
 
     .all__blocks--titles {
