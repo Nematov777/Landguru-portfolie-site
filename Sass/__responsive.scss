@@ -999,6 +999,14 @@
     .question__answer {
         font-size: 20px;
     }
+
+    .hero__sponser {
+        font-size: 23px;
+    }
+
+    .all__blocks--h3 {
+        font-size: 23px;
+    }
 }
 
 @media only screen and (max-width:320px) {
@@ -1380,6 +1388,9 @@
     }
 
     .question__answer {
+        font-size: 20px;
+    }
+    .hero__sponser {
         font-size: 20px;
     }
 }
